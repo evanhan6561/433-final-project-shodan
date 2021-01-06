@@ -45,18 +45,18 @@ def filter_vulnerable(vulnerable_matches):
         filtered_entry = {}
         filtered_entry["ip_str"] = entry["ip_str"]
         filtered_entry["product"] = entry["product"]
-        # filtered_entry["version"] = entry["version"]
+        filtered_entry["version"] = entry["version"]
         filtered_entry["domains"] = entry["domains"]
         filtered_entry["hostnames"] = entry["hostnames"]
 
         # entry['vulns'] is itself a dictionary. We don't need need all of its data
-        # cve_entries = {}
-        # for cve in entry['vulns']:
-        #     cve_entries[cve] = {}
+        cve_entries = {}
+        for cve in entry['vulns']:
+            cve_entries[cve] = {}
 
-        #     cve_entries[cve]['cvss'] = entry['vulns'][cve]['cvss']
-        #     cve_entries[cve]['summary'] = entry['vulns'][cve]['summary']
-        # filtered_entry['vulns'] = cve_entries
+            cve_entries[cve]['cvss'] = entry['vulns'][cve]['cvss']
+            cve_entries[cve]['summary'] = entry['vulns'][cve]['summary']
+        filtered_entry['vulns'] = cve_entries
 
         filtered_entries.append(filtered_entry)
     print(len(filtered_entries))

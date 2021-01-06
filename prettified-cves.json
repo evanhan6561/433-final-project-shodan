@@ -2,6 +2,7 @@
     {
         "ip_str": "159.251.7.22",
         "product": "Microsoft IIS httpd",
+        "version": "7.5",
         "domains": [
             "carenet.org",
             "bjc.org"
@@ -12,43 +13,178 @@
             "bjcweb08.bjc.org",
             "meidaweb.bjc.org",
             "media.bjc.org"
-        ]
+        ],
+        "vulns": {
+            "CVE-2010-1899": {
+                "cvss": "4.3",
+                "summary": "Stack consumption vulnerability in the ASP implementation in Microsoft Internet Information Services (IIS) 5.1, 6.0, 7.0, and 7.5 allows remote attackers to cause a denial of service (daemon outage) via a crafted request, related to asp.dll, aka \"IIS Repeated Parameter Request Denial of Service Vulnerability.\""
+            },
+            "CVE-2010-2730": {
+                "cvss": "9.3",
+                "summary": "Buffer overflow in Microsoft Internet Information Services (IIS) 7.5, when FastCGI is enabled, allows remote attackers to execute arbitrary code via crafted headers in a request, aka \"Request Header Buffer Overflow Vulnerability.\""
+            },
+            "CVE-2010-3972": {
+                "cvss": "10.0",
+                "summary": "Heap-based buffer overflow in the TELNET_STREAM_CONTEXT::OnSendData function in ftpsvc.dll in Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) 7.0, and IIS 7.5, allows remote attackers to execute arbitrary code or cause a denial of service (daemon crash) via a crafted FTP command, aka \"IIS FTP Service Heap Buffer Overrun Vulnerability.\" NOTE: some of these details are obtained from third party information."
+            },
+            "CVE-2012-2531": {
+                "cvss": "2.1",
+                "summary": "Microsoft Internet Information Services (IIS) 7.5 uses weak permissions for the Operational log, which allows local users to discover credentials by reading this file, aka \"Password Disclosure Vulnerability.\""
+            },
+            "CVE-2012-2532": {
+                "cvss": "5.0",
+                "summary": "Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) processes unspecified commands before TLS is enabled for a session, which allows remote attackers to obtain sensitive information by reading the replies to these commands, aka \"FTP Command Injection Vulnerability.\""
+            },
+            "CVE-2010-1256": {
+                "cvss": "8.5",
+                "summary": "Unspecified vulnerability in Microsoft IIS 6.0, 7.0, and 7.5, when Extended Protection for Authentication is enabled, allows remote authenticated users to execute arbitrary code via unknown vectors related to \"token checking\" that trigger memory corruption, aka \"IIS Authentication Memory Corruption Vulnerability.\""
+            }
+        }
     },
     {
         "ip_str": "159.251.7.176",
         "product": "Microsoft IIS httpd",
+        "version": "7.5",
         "domains": [],
-        "hostnames": []
+        "hostnames": [],
+        "vulns": {
+            "CVE-2010-1899": {
+                "cvss": "4.3",
+                "summary": "Stack consumption vulnerability in the ASP implementation in Microsoft Internet Information Services (IIS) 5.1, 6.0, 7.0, and 7.5 allows remote attackers to cause a denial of service (daemon outage) via a crafted request, related to asp.dll, aka \"IIS Repeated Parameter Request Denial of Service Vulnerability.\""
+            },
+            "CVE-2010-2730": {
+                "cvss": "9.3",
+                "summary": "Buffer overflow in Microsoft Internet Information Services (IIS) 7.5, when FastCGI is enabled, allows remote attackers to execute arbitrary code via crafted headers in a request, aka \"Request Header Buffer Overflow Vulnerability.\""
+            },
+            "CVE-2010-3972": {
+                "cvss": "10.0",
+                "summary": "Heap-based buffer overflow in the TELNET_STREAM_CONTEXT::OnSendData function in ftpsvc.dll in Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) 7.0, and IIS 7.5, allows remote attackers to execute arbitrary code or cause a denial of service (daemon crash) via a crafted FTP command, aka \"IIS FTP Service Heap Buffer Overrun Vulnerability.\" NOTE: some of these details are obtained from third party information."
+            },
+            "CVE-2012-2531": {
+                "cvss": "2.1",
+                "summary": "Microsoft Internet Information Services (IIS) 7.5 uses weak permissions for the Operational log, which allows local users to discover credentials by reading this file, aka \"Password Disclosure Vulnerability.\""
+            },
+            "CVE-2012-2532": {
+                "cvss": "5.0",
+                "summary": "Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) processes unspecified commands before TLS is enabled for a session, which allows remote attackers to obtain sensitive information by reading the replies to these commands, aka \"FTP Command Injection Vulnerability.\""
+            },
+            "CVE-2010-1256": {
+                "cvss": "8.5",
+                "summary": "Unspecified vulnerability in Microsoft IIS 6.0, 7.0, and 7.5, when Extended Protection for Authentication is enabled, allows remote authenticated users to execute arbitrary code via unknown vectors related to \"token checking\" that trigger memory corruption, aka \"IIS Authentication Memory Corruption Vulnerability.\""
+            }
+        }
     },
     {
         "ip_str": "159.251.7.90",
         "product": "Microsoft IIS httpd",
+        "version": "7.5",
         "domains": [
             "bjc.org"
         ],
         "hostnames": [
             "rxrefill.bjc.org"
-        ]
+        ],
+        "vulns": {
+            "CVE-2010-1899": {
+                "cvss": "4.3",
+                "summary": "Stack consumption vulnerability in the ASP implementation in Microsoft Internet Information Services (IIS) 5.1, 6.0, 7.0, and 7.5 allows remote attackers to cause a denial of service (daemon outage) via a crafted request, related to asp.dll, aka \"IIS Repeated Parameter Request Denial of Service Vulnerability.\""
+            },
+            "CVE-2010-2730": {
+                "cvss": "9.3",
+                "summary": "Buffer overflow in Microsoft Internet Information Services (IIS) 7.5, when FastCGI is enabled, allows remote attackers to execute arbitrary code via crafted headers in a request, aka \"Request Header Buffer Overflow Vulnerability.\""
+            },
+            "CVE-2010-3972": {
+                "cvss": "10.0",
+                "summary": "Heap-based buffer overflow in the TELNET_STREAM_CONTEXT::OnSendData function in ftpsvc.dll in Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) 7.0, and IIS 7.5, allows remote attackers to execute arbitrary code or cause a denial of service (daemon crash) via a crafted FTP command, aka \"IIS FTP Service Heap Buffer Overrun Vulnerability.\" NOTE: some of these details are obtained from third party information."
+            },
+            "CVE-2012-2531": {
+                "cvss": "2.1",
+                "summary": "Microsoft Internet Information Services (IIS) 7.5 uses weak permissions for the Operational log, which allows local users to discover credentials by reading this file, aka \"Password Disclosure Vulnerability.\""
+            },
+            "CVE-2012-2532": {
+                "cvss": "5.0",
+                "summary": "Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) processes unspecified commands before TLS is enabled for a session, which allows remote attackers to obtain sensitive information by reading the replies to these commands, aka \"FTP Command Injection Vulnerability.\""
+            },
+            "CVE-2010-1256": {
+                "cvss": "8.5",
+                "summary": "Unspecified vulnerability in Microsoft IIS 6.0, 7.0, and 7.5, when Extended Protection for Authentication is enabled, allows remote authenticated users to execute arbitrary code via unknown vectors related to \"token checking\" that trigger memory corruption, aka \"IIS Authentication Memory Corruption Vulnerability.\""
+            }
+        }
     },
     {
         "ip_str": "159.251.7.250",
         "product": "Apache httpd",
+        "version": "2.4.34",
         "domains": [],
-        "hostnames": []
+        "hostnames": [],
+        "vulns": {
+            "CVE-2019-0196": {
+                "cvss": "5.0",
+                "summary": "A vulnerability was found in Apache HTTP Server 2.4.17 to 2.4.38. Using fuzzed network input, the http/2 request handling could be made to access freed memory in string comparison when determining the method of a request and thus process the request incorrectly."
+            },
+            "CVE-2019-0197": {
+                "cvss": "4.9",
+                "summary": "A vulnerability was found in Apache HTTP Server 2.4.34 to 2.4.38. When HTTP/2 was enabled for a http: host or H2Upgrade was enabled for h2 on a https: host, an Upgrade request from http/1.1 to http/2 that was not the first request on a connection could lead to a misconfiguration and crash. Server that never enabled the h2 protocol or that only enabled it for https: and did not set \"H2Upgrade on\" are unaffected by this issue."
+            },
+            "CVE-2019-0220": {
+                "cvss": "5.0",
+                "summary": "A vulnerability was found in Apache HTTP Server 2.4.0 to 2.4.38. When the path component of a request URL contains multiple consecutive slashes ('/'), directives such as LocationMatch and RewriteRule must account for duplicates in regular expressions while other aspects of the servers processing will implicitly collapse them."
+            },
+            "CVE-2019-0211": {
+                "cvss": "7.2",
+                "summary": "In Apache HTTP Server 2.4 releases 2.4.17 to 2.4.38, with MPM event, worker or prefork, code executing in less-privileged child processes or threads (including scripts executed by an in-process scripting interpreter) could execute arbitrary code with the privileges of the parent process (usually root) by manipulating the scoreboard. Non-Unix systems are not affected."
+            },
+            "CVE-2018-17199": {
+                "cvss": "5.0",
+                "summary": "In Apache HTTP Server 2.4 release 2.4.37 and prior, mod_session checks the session expiry time before decoding the session. This causes session expiry time to be ignored for mod_session_cookie sessions since the expiry time is loaded when the session is decoded."
+            },
+            "CVE-2018-11763": {
+                "cvss": "4.3",
+                "summary": "In Apache HTTP Server 2.4.17 to 2.4.34, by sending continuous, large SETTINGS frames a client can occupy a connection, server thread and CPU time without any connection timeout coming to effect. This affects only HTTP/2 connections. A possible mitigation is to not enable the h2 protocol."
+            }
+        }
     },
     {
         "ip_str": "159.251.7.151",
         "product": "Microsoft IIS httpd",
+        "version": "7.5",
         "domains": [
             "bjc.org"
         ],
         "hostnames": [
             "www.onlinepayment.bjc.org"
-        ]
+        ],
+        "vulns": {
+            "CVE-2010-1899": {
+                "cvss": "4.3",
+                "summary": "Stack consumption vulnerability in the ASP implementation in Microsoft Internet Information Services (IIS) 5.1, 6.0, 7.0, and 7.5 allows remote attackers to cause a denial of service (daemon outage) via a crafted request, related to asp.dll, aka \"IIS Repeated Parameter Request Denial of Service Vulnerability.\""
+            },
+            "CVE-2010-2730": {
+                "cvss": "9.3",
+                "summary": "Buffer overflow in Microsoft Internet Information Services (IIS) 7.5, when FastCGI is enabled, allows remote attackers to execute arbitrary code via crafted headers in a request, aka \"Request Header Buffer Overflow Vulnerability.\""
+            },
+            "CVE-2010-3972": {
+                "cvss": "10.0",
+                "summary": "Heap-based buffer overflow in the TELNET_STREAM_CONTEXT::OnSendData function in ftpsvc.dll in Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) 7.0, and IIS 7.5, allows remote attackers to execute arbitrary code or cause a denial of service (daemon crash) via a crafted FTP command, aka \"IIS FTP Service Heap Buffer Overrun Vulnerability.\" NOTE: some of these details are obtained from third party information."
+            },
+            "CVE-2012-2531": {
+                "cvss": "2.1",
+                "summary": "Microsoft Internet Information Services (IIS) 7.5 uses weak permissions for the Operational log, which allows local users to discover credentials by reading this file, aka \"Password Disclosure Vulnerability.\""
+            },
+            "CVE-2012-2532": {
+                "cvss": "5.0",
+                "summary": "Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) processes unspecified commands before TLS is enabled for a session, which allows remote attackers to obtain sensitive information by reading the replies to these commands, aka \"FTP Command Injection Vulnerability.\""
+            },
+            "CVE-2010-1256": {
+                "cvss": "8.5",
+                "summary": "Unspecified vulnerability in Microsoft IIS 6.0, 7.0, and 7.5, when Extended Protection for Authentication is enabled, allows remote authenticated users to execute arbitrary code via unknown vectors related to \"token checking\" that trigger memory corruption, aka \"IIS Authentication Memory Corruption Vulnerability.\""
+            }
+        }
     },
     {
         "ip_str": "159.251.7.128",
         "product": "Microsoft IIS httpd",
+        "version": "7.5",
         "domains": [
             "bjc.org",
             "carenet.org"
@@ -56,27 +192,108 @@
         "hostnames": [
             "spectrum.bjc.org",
             "bjcidentitymanagementauth.carenet.org"
-        ]
+        ],
+        "vulns": {
+            "CVE-2010-1899": {
+                "cvss": "4.3",
+                "summary": "Stack consumption vulnerability in the ASP implementation in Microsoft Internet Information Services (IIS) 5.1, 6.0, 7.0, and 7.5 allows remote attackers to cause a denial of service (daemon outage) via a crafted request, related to asp.dll, aka \"IIS Repeated Parameter Request Denial of Service Vulnerability.\""
+            },
+            "CVE-2010-2730": {
+                "cvss": "9.3",
+                "summary": "Buffer overflow in Microsoft Internet Information Services (IIS) 7.5, when FastCGI is enabled, allows remote attackers to execute arbitrary code via crafted headers in a request, aka \"Request Header Buffer Overflow Vulnerability.\""
+            },
+            "CVE-2010-3972": {
+                "cvss": "10.0",
+                "summary": "Heap-based buffer overflow in the TELNET_STREAM_CONTEXT::OnSendData function in ftpsvc.dll in Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) 7.0, and IIS 7.5, allows remote attackers to execute arbitrary code or cause a denial of service (daemon crash) via a crafted FTP command, aka \"IIS FTP Service Heap Buffer Overrun Vulnerability.\" NOTE: some of these details are obtained from third party information."
+            },
+            "CVE-2012-2531": {
+                "cvss": "2.1",
+                "summary": "Microsoft Internet Information Services (IIS) 7.5 uses weak permissions for the Operational log, which allows local users to discover credentials by reading this file, aka \"Password Disclosure Vulnerability.\""
+            },
+            "CVE-2012-2532": {
+                "cvss": "5.0",
+                "summary": "Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) processes unspecified commands before TLS is enabled for a session, which allows remote attackers to obtain sensitive information by reading the replies to these commands, aka \"FTP Command Injection Vulnerability.\""
+            },
+            "CVE-2010-1256": {
+                "cvss": "8.5",
+                "summary": "Unspecified vulnerability in Microsoft IIS 6.0, 7.0, and 7.5, when Extended Protection for Authentication is enabled, allows remote authenticated users to execute arbitrary code via unknown vectors related to \"token checking\" that trigger memory corruption, aka \"IIS Authentication Memory Corruption Vulnerability.\""
+            }
+        }
     },
     {
         "ip_str": "159.251.7.136",
         "product": "Microsoft IIS httpd",
+        "version": "7.5",
         "domains": [],
-        "hostnames": []
+        "hostnames": [],
+        "vulns": {
+            "CVE-2010-1899": {
+                "cvss": "4.3",
+                "summary": "Stack consumption vulnerability in the ASP implementation in Microsoft Internet Information Services (IIS) 5.1, 6.0, 7.0, and 7.5 allows remote attackers to cause a denial of service (daemon outage) via a crafted request, related to asp.dll, aka \"IIS Repeated Parameter Request Denial of Service Vulnerability.\""
+            },
+            "CVE-2010-2730": {
+                "cvss": "9.3",
+                "summary": "Buffer overflow in Microsoft Internet Information Services (IIS) 7.5, when FastCGI is enabled, allows remote attackers to execute arbitrary code via crafted headers in a request, aka \"Request Header Buffer Overflow Vulnerability.\""
+            },
+            "CVE-2010-3972": {
+                "cvss": "10.0",
+                "summary": "Heap-based buffer overflow in the TELNET_STREAM_CONTEXT::OnSendData function in ftpsvc.dll in Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) 7.0, and IIS 7.5, allows remote attackers to execute arbitrary code or cause a denial of service (daemon crash) via a crafted FTP command, aka \"IIS FTP Service Heap Buffer Overrun Vulnerability.\" NOTE: some of these details are obtained from third party information."
+            },
+            "CVE-2012-2531": {
+                "cvss": "2.1",
+                "summary": "Microsoft Internet Information Services (IIS) 7.5 uses weak permissions for the Operational log, which allows local users to discover credentials by reading this file, aka \"Password Disclosure Vulnerability.\""
+            },
+            "CVE-2012-2532": {
+                "cvss": "5.0",
+                "summary": "Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) processes unspecified commands before TLS is enabled for a session, which allows remote attackers to obtain sensitive information by reading the replies to these commands, aka \"FTP Command Injection Vulnerability.\""
+            },
+            "CVE-2010-1256": {
+                "cvss": "8.5",
+                "summary": "Unspecified vulnerability in Microsoft IIS 6.0, 7.0, and 7.5, when Extended Protection for Authentication is enabled, allows remote authenticated users to execute arbitrary code via unknown vectors related to \"token checking\" that trigger memory corruption, aka \"IIS Authentication Memory Corruption Vulnerability.\""
+            }
+        }
     },
     {
         "ip_str": "159.251.7.30",
         "product": "Microsoft IIS httpd",
+        "version": "7.5",
         "domains": [
             "bjc.org"
         ],
         "hostnames": [
             "echoapps.bjc.org"
-        ]
+        ],
+        "vulns": {
+            "CVE-2010-1899": {
+                "cvss": "4.3",
+                "summary": "Stack consumption vulnerability in the ASP implementation in Microsoft Internet Information Services (IIS) 5.1, 6.0, 7.0, and 7.5 allows remote attackers to cause a denial of service (daemon outage) via a crafted request, related to asp.dll, aka \"IIS Repeated Parameter Request Denial of Service Vulnerability.\""
+            },
+            "CVE-2010-2730": {
+                "cvss": "9.3",
+                "summary": "Buffer overflow in Microsoft Internet Information Services (IIS) 7.5, when FastCGI is enabled, allows remote attackers to execute arbitrary code via crafted headers in a request, aka \"Request Header Buffer Overflow Vulnerability.\""
+            },
+            "CVE-2010-3972": {
+                "cvss": "10.0",
+                "summary": "Heap-based buffer overflow in the TELNET_STREAM_CONTEXT::OnSendData function in ftpsvc.dll in Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) 7.0, and IIS 7.5, allows remote attackers to execute arbitrary code or cause a denial of service (daemon crash) via a crafted FTP command, aka \"IIS FTP Service Heap Buffer Overrun Vulnerability.\" NOTE: some of these details are obtained from third party information."
+            },
+            "CVE-2012-2531": {
+                "cvss": "2.1",
+                "summary": "Microsoft Internet Information Services (IIS) 7.5 uses weak permissions for the Operational log, which allows local users to discover credentials by reading this file, aka \"Password Disclosure Vulnerability.\""
+            },
+            "CVE-2012-2532": {
+                "cvss": "5.0",
+                "summary": "Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) processes unspecified commands before TLS is enabled for a session, which allows remote attackers to obtain sensitive information by reading the replies to these commands, aka \"FTP Command Injection Vulnerability.\""
+            },
+            "CVE-2010-1256": {
+                "cvss": "8.5",
+                "summary": "Unspecified vulnerability in Microsoft IIS 6.0, 7.0, and 7.5, when Extended Protection for Authentication is enabled, allows remote authenticated users to execute arbitrary code via unknown vectors related to \"token checking\" that trigger memory corruption, aka \"IIS Authentication Memory Corruption Vulnerability.\""
+            }
+        }
     },
     {
         "ip_str": "159.251.7.88",
         "product": "Microsoft IIS httpd",
+        "version": "7.5",
         "domains": [
             "barnesjewishwestcounty.org",
             "bjcdocjobs.org",
@@ -177,55 +394,217 @@
             "mobapbaby.org",
             "eunicesmithhome.com",
             "enrollment.bjctotalrewards.org"
-        ]
+        ],
+        "vulns": {
+            "CVE-2010-1899": {
+                "cvss": "4.3",
+                "summary": "Stack consumption vulnerability in the ASP implementation in Microsoft Internet Information Services (IIS) 5.1, 6.0, 7.0, and 7.5 allows remote attackers to cause a denial of service (daemon outage) via a crafted request, related to asp.dll, aka \"IIS Repeated Parameter Request Denial of Service Vulnerability.\""
+            },
+            "CVE-2010-2730": {
+                "cvss": "9.3",
+                "summary": "Buffer overflow in Microsoft Internet Information Services (IIS) 7.5, when FastCGI is enabled, allows remote attackers to execute arbitrary code via crafted headers in a request, aka \"Request Header Buffer Overflow Vulnerability.\""
+            },
+            "CVE-2010-3972": {
+                "cvss": "10.0",
+                "summary": "Heap-based buffer overflow in the TELNET_STREAM_CONTEXT::OnSendData function in ftpsvc.dll in Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) 7.0, and IIS 7.5, allows remote attackers to execute arbitrary code or cause a denial of service (daemon crash) via a crafted FTP command, aka \"IIS FTP Service Heap Buffer Overrun Vulnerability.\" NOTE: some of these details are obtained from third party information."
+            },
+            "CVE-2012-2531": {
+                "cvss": "2.1",
+                "summary": "Microsoft Internet Information Services (IIS) 7.5 uses weak permissions for the Operational log, which allows local users to discover credentials by reading this file, aka \"Password Disclosure Vulnerability.\""
+            },
+            "CVE-2012-2532": {
+                "cvss": "5.0",
+                "summary": "Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) processes unspecified commands before TLS is enabled for a session, which allows remote attackers to obtain sensitive information by reading the replies to these commands, aka \"FTP Command Injection Vulnerability.\""
+            },
+            "CVE-2010-1256": {
+                "cvss": "8.5",
+                "summary": "Unspecified vulnerability in Microsoft IIS 6.0, 7.0, and 7.5, when Extended Protection for Authentication is enabled, allows remote authenticated users to execute arbitrary code via unknown vectors related to \"token checking\" that trigger memory corruption, aka \"IIS Authentication Memory Corruption Vulnerability.\""
+            }
+        }
     },
     {
         "ip_str": "159.251.7.139",
         "product": "Apache httpd",
+        "version": "2.4.34",
         "domains": [],
-        "hostnames": []
+        "hostnames": [],
+        "vulns": {
+            "CVE-2019-0196": {
+                "cvss": "5.0",
+                "summary": "A vulnerability was found in Apache HTTP Server 2.4.17 to 2.4.38. Using fuzzed network input, the http/2 request handling could be made to access freed memory in string comparison when determining the method of a request and thus process the request incorrectly."
+            },
+            "CVE-2019-0197": {
+                "cvss": "4.9",
+                "summary": "A vulnerability was found in Apache HTTP Server 2.4.34 to 2.4.38. When HTTP/2 was enabled for a http: host or H2Upgrade was enabled for h2 on a https: host, an Upgrade request from http/1.1 to http/2 that was not the first request on a connection could lead to a misconfiguration and crash. Server that never enabled the h2 protocol or that only enabled it for https: and did not set \"H2Upgrade on\" are unaffected by this issue."
+            },
+            "CVE-2019-0220": {
+                "cvss": "5.0",
+                "summary": "A vulnerability was found in Apache HTTP Server 2.4.0 to 2.4.38. When the path component of a request URL contains multiple consecutive slashes ('/'), directives such as LocationMatch and RewriteRule must account for duplicates in regular expressions while other aspects of the servers processing will implicitly collapse them."
+            },
+            "CVE-2019-0211": {
+                "cvss": "7.2",
+                "summary": "In Apache HTTP Server 2.4 releases 2.4.17 to 2.4.38, with MPM event, worker or prefork, code executing in less-privileged child processes or threads (including scripts executed by an in-process scripting interpreter) could execute arbitrary code with the privileges of the parent process (usually root) by manipulating the scoreboard. Non-Unix systems are not affected."
+            },
+            "CVE-2018-17199": {
+                "cvss": "5.0",
+                "summary": "In Apache HTTP Server 2.4 release 2.4.37 and prior, mod_session checks the session expiry time before decoding the session. This causes session expiry time to be ignored for mod_session_cookie sessions since the expiry time is loaded when the session is decoded."
+            },
+            "CVE-2018-11763": {
+                "cvss": "4.3",
+                "summary": "In Apache HTTP Server 2.4.17 to 2.4.34, by sending continuous, large SETTINGS frames a client can occupy a connection, server thread and CPU time without any connection timeout coming to effect. This affects only HTTP/2 connections. A possible mitigation is to not enable the h2 protocol."
+            }
+        }
     },
     {
         "ip_str": "159.251.7.199",
         "product": "Apache httpd",
+        "version": "2.4.34",
         "domains": [
             "myhealthfolders.com"
         ],
         "hostnames": [
             "www.myhealthfolders.com",
             "myhealthfolders.com"
-        ]
+        ],
+        "vulns": {
+            "CVE-2019-0196": {
+                "cvss": "5.0",
+                "summary": "A vulnerability was found in Apache HTTP Server 2.4.17 to 2.4.38. Using fuzzed network input, the http/2 request handling could be made to access freed memory in string comparison when determining the method of a request and thus process the request incorrectly."
+            },
+            "CVE-2019-0197": {
+                "cvss": "4.9",
+                "summary": "A vulnerability was found in Apache HTTP Server 2.4.34 to 2.4.38. When HTTP/2 was enabled for a http: host or H2Upgrade was enabled for h2 on a https: host, an Upgrade request from http/1.1 to http/2 that was not the first request on a connection could lead to a misconfiguration and crash. Server that never enabled the h2 protocol or that only enabled it for https: and did not set \"H2Upgrade on\" are unaffected by this issue."
+            },
+            "CVE-2019-0220": {
+                "cvss": "5.0",
+                "summary": "A vulnerability was found in Apache HTTP Server 2.4.0 to 2.4.38. When the path component of a request URL contains multiple consecutive slashes ('/'), directives such as LocationMatch and RewriteRule must account for duplicates in regular expressions while other aspects of the servers processing will implicitly collapse them."
+            },
+            "CVE-2019-0211": {
+                "cvss": "7.2",
+                "summary": "In Apache HTTP Server 2.4 releases 2.4.17 to 2.4.38, with MPM event, worker or prefork, code executing in less-privileged child processes or threads (including scripts executed by an in-process scripting interpreter) could execute arbitrary code with the privileges of the parent process (usually root) by manipulating the scoreboard. Non-Unix systems are not affected."
+            },
+            "CVE-2018-17199": {
+                "cvss": "5.0",
+                "summary": "In Apache HTTP Server 2.4 release 2.4.37 and prior, mod_session checks the session expiry time before decoding the session. This causes session expiry time to be ignored for mod_session_cookie sessions since the expiry time is loaded when the session is decoded."
+            },
+            "CVE-2018-11763": {
+                "cvss": "4.3",
+                "summary": "In Apache HTTP Server 2.4.17 to 2.4.34, by sending continuous, large SETTINGS frames a client can occupy a connection, server thread and CPU time without any connection timeout coming to effect. This affects only HTTP/2 connections. A possible mitigation is to not enable the h2 protocol."
+            }
+        }
     },
     {
         "ip_str": "159.251.6.139",
         "product": "Apache httpd",
+        "version": "2.4.34",
         "domains": [],
-        "hostnames": []
+        "hostnames": [],
+        "vulns": {
+            "CVE-2019-0196": {
+                "cvss": "5.0",
+                "summary": "A vulnerability was found in Apache HTTP Server 2.4.17 to 2.4.38. Using fuzzed network input, the http/2 request handling could be made to access freed memory in string comparison when determining the method of a request and thus process the request incorrectly."
+            },
+            "CVE-2019-0197": {
+                "cvss": "4.9",
+                "summary": "A vulnerability was found in Apache HTTP Server 2.4.34 to 2.4.38. When HTTP/2 was enabled for a http: host or H2Upgrade was enabled for h2 on a https: host, an Upgrade request from http/1.1 to http/2 that was not the first request on a connection could lead to a misconfiguration and crash. Server that never enabled the h2 protocol or that only enabled it for https: and did not set \"H2Upgrade on\" are unaffected by this issue."
+            },
+            "CVE-2019-0220": {
+                "cvss": "5.0",
+                "summary": "A vulnerability was found in Apache HTTP Server 2.4.0 to 2.4.38. When the path component of a request URL contains multiple consecutive slashes ('/'), directives such as LocationMatch and RewriteRule must account for duplicates in regular expressions while other aspects of the servers processing will implicitly collapse them."
+            },
+            "CVE-2019-0211": {
+                "cvss": "7.2",
+                "summary": "In Apache HTTP Server 2.4 releases 2.4.17 to 2.4.38, with MPM event, worker or prefork, code executing in less-privileged child processes or threads (including scripts executed by an in-process scripting interpreter) could execute arbitrary code with the privileges of the parent process (usually root) by manipulating the scoreboard. Non-Unix systems are not affected."
+            },
+            "CVE-2018-17199": {
+                "cvss": "5.0",
+                "summary": "In Apache HTTP Server 2.4 release 2.4.37 and prior, mod_session checks the session expiry time before decoding the session. This causes session expiry time to be ignored for mod_session_cookie sessions since the expiry time is loaded when the session is decoded."
+            },
+            "CVE-2018-11763": {
+                "cvss": "4.3",
+                "summary": "In Apache HTTP Server 2.4.17 to 2.4.34, by sending continuous, large SETTINGS frames a client can occupy a connection, server thread and CPU time without any connection timeout coming to effect. This affects only HTTP/2 connections. A possible mitigation is to not enable the h2 protocol."
+            }
+        }
     },
     {
         "ip_str": "159.251.7.124",
         "product": "Microsoft IIS httpd",
+        "version": "7.5",
         "domains": [
             "barnesjewish.org"
         ],
         "hostnames": [
             "shop.barnesjewish.org",
             "www.shop.barnesjewish.org"
-        ]
+        ],
+        "vulns": {
+            "CVE-2010-1899": {
+                "cvss": "4.3",
+                "summary": "Stack consumption vulnerability in the ASP implementation in Microsoft Internet Information Services (IIS) 5.1, 6.0, 7.0, and 7.5 allows remote attackers to cause a denial of service (daemon outage) via a crafted request, related to asp.dll, aka \"IIS Repeated Parameter Request Denial of Service Vulnerability.\""
+            },
+            "CVE-2010-2730": {
+                "cvss": "9.3",
+                "summary": "Buffer overflow in Microsoft Internet Information Services (IIS) 7.5, when FastCGI is enabled, allows remote attackers to execute arbitrary code via crafted headers in a request, aka \"Request Header Buffer Overflow Vulnerability.\""
+            },
+            "CVE-2010-3972": {
+                "cvss": "10.0",
+                "summary": "Heap-based buffer overflow in the TELNET_STREAM_CONTEXT::OnSendData function in ftpsvc.dll in Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) 7.0, and IIS 7.5, allows remote attackers to execute arbitrary code or cause a denial of service (daemon crash) via a crafted FTP command, aka \"IIS FTP Service Heap Buffer Overrun Vulnerability.\" NOTE: some of these details are obtained from third party information."
+            },
+            "CVE-2012-2531": {
+                "cvss": "2.1",
+                "summary": "Microsoft Internet Information Services (IIS) 7.5 uses weak permissions for the Operational log, which allows local users to discover credentials by reading this file, aka \"Password Disclosure Vulnerability.\""
+            },
+            "CVE-2012-2532": {
+                "cvss": "5.0",
+                "summary": "Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) processes unspecified commands before TLS is enabled for a session, which allows remote attackers to obtain sensitive information by reading the replies to these commands, aka \"FTP Command Injection Vulnerability.\""
+            },
+            "CVE-2010-1256": {
+                "cvss": "8.5",
+                "summary": "Unspecified vulnerability in Microsoft IIS 6.0, 7.0, and 7.5, when Extended Protection for Authentication is enabled, allows remote authenticated users to execute arbitrary code via unknown vectors related to \"token checking\" that trigger memory corruption, aka \"IIS Authentication Memory Corruption Vulnerability.\""
+            }
+        }
     },
     {
         "ip_str": "159.251.7.127",
         "product": "Microsoft IIS httpd",
+        "version": "7.5",
         "domains": [
             "bjc.org"
         ],
         "hostnames": [
             "pki.bjc.org"
-        ]
+        ],
+        "vulns": {
+            "CVE-2010-1899": {
+                "cvss": "4.3",
+                "summary": "Stack consumption vulnerability in the ASP implementation in Microsoft Internet Information Services (IIS) 5.1, 6.0, 7.0, and 7.5 allows remote attackers to cause a denial of service (daemon outage) via a crafted request, related to asp.dll, aka \"IIS Repeated Parameter Request Denial of Service Vulnerability.\""
+            },
+            "CVE-2010-2730": {
+                "cvss": "9.3",
+                "summary": "Buffer overflow in Microsoft Internet Information Services (IIS) 7.5, when FastCGI is enabled, allows remote attackers to execute arbitrary code via crafted headers in a request, aka \"Request Header Buffer Overflow Vulnerability.\""
+            },
+            "CVE-2010-3972": {
+                "cvss": "10.0",
+                "summary": "Heap-based buffer overflow in the TELNET_STREAM_CONTEXT::OnSendData function in ftpsvc.dll in Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) 7.0, and IIS 7.5, allows remote attackers to execute arbitrary code or cause a denial of service (daemon crash) via a crafted FTP command, aka \"IIS FTP Service Heap Buffer Overrun Vulnerability.\" NOTE: some of these details are obtained from third party information."
+            },
+            "CVE-2012-2531": {
+                "cvss": "2.1",
+                "summary": "Microsoft Internet Information Services (IIS) 7.5 uses weak permissions for the Operational log, which allows local users to discover credentials by reading this file, aka \"Password Disclosure Vulnerability.\""
+            },
+            "CVE-2012-2532": {
+                "cvss": "5.0",
+                "summary": "Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) processes unspecified commands before TLS is enabled for a session, which allows remote attackers to obtain sensitive information by reading the replies to these commands, aka \"FTP Command Injection Vulnerability.\""
+            },
+            "CVE-2010-1256": {
+                "cvss": "8.5",
+                "summary": "Unspecified vulnerability in Microsoft IIS 6.0, 7.0, and 7.5, when Extended Protection for Authentication is enabled, allows remote authenticated users to execute arbitrary code via unknown vectors related to \"token checking\" that trigger memory corruption, aka \"IIS Authentication Memory Corruption Vulnerability.\""
+            }
+        }
     },
     {
         "ip_str": "159.251.7.160",
         "product": "Microsoft IIS httpd",
+        "version": "7.5",
         "domains": [
             "mobapmom.org",
             "foundationforbarnesjewish.net",
@@ -1308,11 +1687,38 @@
             "bjchealth.net",
             "mobaptistsullivan.com",
             "boonestories.com"
-        ]
+        ],
+        "vulns": {
+            "CVE-2010-1899": {
+                "cvss": "4.3",
+                "summary": "Stack consumption vulnerability in the ASP implementation in Microsoft Internet Information Services (IIS) 5.1, 6.0, 7.0, and 7.5 allows remote attackers to cause a denial of service (daemon outage) via a crafted request, related to asp.dll, aka \"IIS Repeated Parameter Request Denial of Service Vulnerability.\""
+            },
+            "CVE-2010-2730": {
+                "cvss": "9.3",
+                "summary": "Buffer overflow in Microsoft Internet Information Services (IIS) 7.5, when FastCGI is enabled, allows remote attackers to execute arbitrary code via crafted headers in a request, aka \"Request Header Buffer Overflow Vulnerability.\""
+            },
+            "CVE-2010-3972": {
+                "cvss": "10.0",
+                "summary": "Heap-based buffer overflow in the TELNET_STREAM_CONTEXT::OnSendData function in ftpsvc.dll in Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) 7.0, and IIS 7.5, allows remote attackers to execute arbitrary code or cause a denial of service (daemon crash) via a crafted FTP command, aka \"IIS FTP Service Heap Buffer Overrun Vulnerability.\" NOTE: some of these details are obtained from third party information."
+            },
+            "CVE-2012-2531": {
+                "cvss": "2.1",
+                "summary": "Microsoft Internet Information Services (IIS) 7.5 uses weak permissions for the Operational log, which allows local users to discover credentials by reading this file, aka \"Password Disclosure Vulnerability.\""
+            },
+            "CVE-2012-2532": {
+                "cvss": "5.0",
+                "summary": "Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) processes unspecified commands before TLS is enabled for a session, which allows remote attackers to obtain sensitive information by reading the replies to these commands, aka \"FTP Command Injection Vulnerability.\""
+            },
+            "CVE-2010-1256": {
+                "cvss": "8.5",
+                "summary": "Unspecified vulnerability in Microsoft IIS 6.0, 7.0, and 7.5, when Extended Protection for Authentication is enabled, allows remote authenticated users to execute arbitrary code via unknown vectors related to \"token checking\" that trigger memory corruption, aka \"IIS Authentication Memory Corruption Vulnerability.\""
+            }
+        }
     },
     {
         "ip_str": "159.251.7.128",
         "product": "Microsoft IIS httpd",
+        "version": "7.5",
         "domains": [
             "bjc.org",
             "carenet.org"
@@ -1320,6 +1726,32 @@
         "hostnames": [
             "spectrum.bjc.org",
             "bjcidentitymanagementauth.carenet.org"
-        ]
+        ],
+        "vulns": {
+            "CVE-2010-1899": {
+                "cvss": "4.3",
+                "summary": "Stack consumption vulnerability in the ASP implementation in Microsoft Internet Information Services (IIS) 5.1, 6.0, 7.0, and 7.5 allows remote attackers to cause a denial of service (daemon outage) via a crafted request, related to asp.dll, aka \"IIS Repeated Parameter Request Denial of Service Vulnerability.\""
+            },
+            "CVE-2010-2730": {
+                "cvss": "9.3",
+                "summary": "Buffer overflow in Microsoft Internet Information Services (IIS) 7.5, when FastCGI is enabled, allows remote attackers to execute arbitrary code via crafted headers in a request, aka \"Request Header Buffer Overflow Vulnerability.\""
+            },
+            "CVE-2010-3972": {
+                "cvss": "10.0",
+                "summary": "Heap-based buffer overflow in the TELNET_STREAM_CONTEXT::OnSendData function in ftpsvc.dll in Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) 7.0, and IIS 7.5, allows remote attackers to execute arbitrary code or cause a denial of service (daemon crash) via a crafted FTP command, aka \"IIS FTP Service Heap Buffer Overrun Vulnerability.\" NOTE: some of these details are obtained from third party information."
+            },
+            "CVE-2012-2531": {
+                "cvss": "2.1",
+                "summary": "Microsoft Internet Information Services (IIS) 7.5 uses weak permissions for the Operational log, which allows local users to discover credentials by reading this file, aka \"Password Disclosure Vulnerability.\""
+            },
+            "CVE-2012-2532": {
+                "cvss": "5.0",
+                "summary": "Microsoft FTP Service 7.0 and 7.5 for Internet Information Services (IIS) processes unspecified commands before TLS is enabled for a session, which allows remote attackers to obtain sensitive information by reading the replies to these commands, aka \"FTP Command Injection Vulnerability.\""
+            },
+            "CVE-2010-1256": {
+                "cvss": "8.5",
+                "summary": "Unspecified vulnerability in Microsoft IIS 6.0, 7.0, and 7.5, when Extended Protection for Authentication is enabled, allows remote authenticated users to execute arbitrary code via unknown vectors related to \"token checking\" that trigger memory corruption, aka \"IIS Authentication Memory Corruption Vulnerability.\""
+            }
+        }
     }
 ]

@@ -2,6 +2,9 @@ Evan Han and Anh Le
 433 Final Project: Using SHODAN to Analyze Barnes Jewish Hospital
 
 Files:
+whois-bjc.txt
+    Metadata found about BJC through the whois command in terminal.
+
 bjc-all-ips.json
     Contains the banners of all IPs under the organization "BJC Health System" as json
 

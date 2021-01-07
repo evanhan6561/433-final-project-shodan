@@ -3,7 +3,10 @@ Evan Han and Anh Le
 
 Files:
 whois-bjc.txt
-    Metadata found about BJC through the whois command in terminal.
+    Metadata found about BJC through the whois command in terminal. Within Linux, the
+    following commands were used.
+        host barnesjewish.org       # This returns the associated IP
+        whois 159.251.7.180         # This returns the metadata associated with the IP
 
 bjc-all-ips.json
     Contains the banners of all IPs under the organization "BJC Health System" as json
